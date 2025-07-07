@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Catatan Harian Inovatif</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-md-5">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-journal-check me-2"></i> NoteVault
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notes.html">Catatan Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center ms-lg-4">
+                        <div class="form-check form-switch d-flex align-items-center">
+                            <input class="form-check-input dark-mode-toggle me-2" type="checkbox" id="darkModeToggle">
+                            <label class="form-check-label text-muted" for="darkModeToggle"><i class="bi bi-moon-fill me-1"></i> Mode</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow-1 container py-5 my-5">
+        <h1 class="section-title mb-5">Mengenal Pengembang</h1>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="card about-card p-5 glass-effect">
+                    <div class="card-body">
+                        <img src="img/1.jpg" class="profile-img img-fluid mb-4" alt="Foto Profil Anda">
+                        <h2>Muhammad Briliant</h2>
+                        <p class="lead text-muted mb-4">[Posisi: Lead Developer NoteVault]</p>
+                        <hr class="my-5">
+                        <p>
+                            Halo! Saya Briliant, kreator dan pengembang utama di balik aplikasi "NoteVault" ini. NoteVault lahir dari kebutuhan pribadi akan aplikasi catatan yang tidak hanya fungsional tetapi juga menyenangkan secara visual dan intuitif. Saya percaya bahwa alat yang kita gunakan sehari-hari harus menginspirasi dan meningkatkan produktivitas.
+                        </p>
+                        <p>
+                            Perjalanan membangun NoteVault melibatkan eksplorasi mendalam teknologi web modern. Aplikasi ini dibangun dengan dasar yang kuat:
+                        </p>
+                        <ul class="list-unstyled text-start mx-auto my-4" style="max-width: 500px;">
+                            <li class="mb-2"><i class="bi bi-node-js me-2 text-primary-custom"></i> **Backend:** Node.js dengan framework Express.js untuk API yang cepat dan efisien.</li>
+                            <li class="mb-2"><i class="bi bi-database-fill me-2 text-secondary-custom"></i> **Database:** MariaDB untuk penyimpanan data yang andal dan terstruktur.</li>
+                            <li class="mb-2"><i class="bi bi-laptop me-2 text-accent-custom"></i> **Frontend:** HTML5, CSS3, dan Vanilla JavaScript murni, diperkuat dengan Bootstrap 5 untuk desain responsif dan canggih.</li>
+                        </ul>
+                        <p>
+                            Desain visual aplikasi ini berfokus pada estetika minimalis dengan sentuhan glassmorphism, bertujuan untuk menciptakan pengalaman pengguna yang mulus dan memanjakan mata, baik di mode terang maupun gelap.
+                        </p>
+                        <p>
+                            Terima kasih atas dukungan Anda dalam menggunakan NoteVault! Setiap umpan balik sangat dihargai. Jangan ragu untuk terhubung dengan saya melalui platform di bawah ini.
+                        </p>
+                        <div class="mt-5">
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn btn-primary btn-lg me-3"><i class="bi bi-linkedin me-2"></i> LinkedIn</a>
+                            <a href="https://github.com/yourusername" target="_blank" class="btn btn-secondary btn-lg"><i class="bi bi-github me-2"></i> GitHub</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="message-box"></div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">&copy; 2025 NoteVault by Briliant.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
